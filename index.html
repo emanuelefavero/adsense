@@ -4,9 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AdSense Test Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AdSense -->
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5142992130929076"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Hello</h1>
-    <p>World</p>
+    <main>
+      <!-- <h1>👨‍💻</h1> -->
+      <a href="https://github.com/emanuelefavero">github/emanuelefavero</a>
+      <a href="https://www.linkedin.com/in/emanuele-favero/"
+        >linkedin/emanuelefavero</a
+      >
+    </main>
+    <footer></footer>
+    <script>
+      // Footer Date
+      document.querySelector(
+        'footer'
+      ).innerHTML = `© ${new Date().getFullYear()}`
+    </script>
   </body>
 </html>
